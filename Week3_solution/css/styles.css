@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+  }  
+  /** HEADER **/
+  .container{
+    height: 100px;
+    width: auto;
+}
+  #header-nav {
+    background-color: yellow;
+    height: 300 px;
+    border: 1 px solid black;
+  }
+  #collapsable-nav{
+    height:200 px;
+  }
+  .navbar-brand h1 { /* Site heading */
+    font-size: 3 em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    float:left;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  #nav-list {
+    display: block;
+    position: relative;
+    margin-top: 10px;
+  }
+  #nav-list a {
+    font-size: 2em;
+    color: #951C49;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #cc5ac6;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  #collapsable-nav .visible-xs{
+    background-color: rgb(18, 199, 245);
+    border:2px solid black;
+  }
+  hr{
+    margin:0px;
+  }
+  /* END HEADER */
+/*Main Content*/
+
+#container1 .section{
+  background-color: coral;
+  border: 1px solid black;
+  margin-left: 10%;
+  margin-right:10%;
+  height: 500px;
+  margin-bottom: 50px;
+}
+#container1 .section>h1{
+  background-color: pink;
+  margin-top: 0px;
+  border: 1px solid black;
+  text-align: center;
+}
+h1#ourmenu{
+    text-align: center;
+}
